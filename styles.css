@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -8,6 +9,7 @@ body {
     min-height: 100vh;
 }
 
+/* Header Styles */
 header {
     text-align: center;
     padding: 50px 20px;
@@ -25,6 +27,7 @@ header p {
     color: #666;
 }
 
+/* Container Styles */
 .container {
     max-width: 900px;
     margin: 0 auto;
@@ -32,6 +35,11 @@ header p {
     background: rgba(255, 255, 255, 0.8);
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 40px;
 }
 
 h2 {
@@ -49,10 +57,16 @@ p {
     margin-bottom: 20px;
 }
 
-.section {
-    margin-bottom: 40px;
+a {
+    color: #0066cc;
+    text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
 footer {
     text-align: center;
     padding: 20px;
